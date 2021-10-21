@@ -1,9 +1,0 @@
-
-git init
-git branch -M main 
-git remote add origin 
-
-git config --global user.name narasimhareddyprostack
-git config --global user.email "knreddy@gmail.com" 
-
-git push origin -u main 

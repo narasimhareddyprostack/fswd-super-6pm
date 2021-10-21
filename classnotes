@@ -1,0 +1,27 @@
+Document Tags 
+ ---- html, head(title, meta, script, style, link), body 
+
+Document Structur Tags 
+----- div, section, article 
+
+Test Formatting Tags 
+ ----- h1, h2,... h6, p , bold, b, strong, span 
+
+Image -
+<img/>
+List Tags 
+ -- ol , ul , li 
+Link 
+-----<a></a>
+Table -
+---<table> <thead> <tbody> <tr> <td> <th>
+
+HTML 5 New Tags 
+-- audio, video , sematic tags 
+
+Frame Tags 
+-- <Iframe> 
+
+Form Tags 
+-- <form> <input> <label> <textarea> <select> <option>
+
