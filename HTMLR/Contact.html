@@ -7,30 +7,34 @@
   </head>
   <body>
     <h2>Greet Labs Contact Form</h2>
-    <label>Name</label>
-    <input type="text" placeholder="User Name" /> <br /><br />
-    <label>Email</label>
-    <input type="email" placeholder="Email" /> <br /><br />
-    <label>Mobile</label>
-    <input type="number" placeholder="Mobile" /> <br /><br />
-    <label>Subject</label>
-    <input type="text" placeholder="" /> <br /><br />
-    <label>Services</label>
-    <select>
-      <option>Please Select One</option>
-      <option>Mobile App Development</option>
-      <option>Web App Development</option>
-      <option>Standalone App Development</option>
-      <option>Hybrid App Development</option>
-    </select>
-    <br />
-    <br />
-    <label>Message</label>
-    <textarea rows="5" cols="50"></textarea>
-    <br />
-    <button>Submit Message</button>
-    <div>
+
+    <form>
+      <label>Name</label>
+      <input type="text" placeholder="User Name" required tabindex="1" />
+      <br /><br />
+      <label>Email</label>
+      <input type="email" placeholder="Email" /> <br /><br />
+      <label>Mobile</label>
+      <input type="number" placeholder="Mobile" tabindex="2" /> <br /><br />
+      <label>Subject</label>
+      <input type="text" placeholder="" /> <br /><br />
+      <label>Services</label>
+      <select>
+        <option>Please Select One</option>
+        <option>Mobile App Development</option>
+        <option>Web App Development</option>
+        <option>Standalone App Development</option>
+        <option>Hybrid App Development</option>
+      </select>
+      <br />
+      <br />
+      <label>Message</label>
+      <textarea rows="5" cols="50"></textarea>
+      <br />
+      <button>Submit Message</button>
+    </form>
+    <!--  <div>
       <iframe src="http://www.greetlabs.com" height="500" width="600"></iframe>
-    </div>
+    </div> -->
   </body>
 </html>
