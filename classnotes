@@ -1,0 +1,10 @@
+React Installation
+----------------------
+>npx create-react-app react-16 
+ cd react-16
+ npm start 
+
+
+Note: we cant use React Keywords/ Upper Case letters - project name 
+
+
