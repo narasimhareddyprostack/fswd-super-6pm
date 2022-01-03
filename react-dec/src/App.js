@@ -1,12 +1,11 @@
-import CompA from "./Props/CompA";
-let App = () => {
+import Navbar from "./Navbar/Navbar";
+import Data from "./Data/Data";
+function App() {
   return (
     <div>
-      <h1>App Component</h1>
-      <hr />
-      <CompA />
+      <Navbar />
+      <Data />
     </div>
   );
-};
-
+}
 export default App;
