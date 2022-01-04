@@ -1,11 +1,10 @@
 import Navbar from "./Navbar/Navbar";
-import CompA from './Props/CompA'
+import Data from "./Data/Data";
 function App() {
   return (
     <div>
       <Navbar />
-      <CompA/>
-     
+      <Data />
     </div>
   );
 }
