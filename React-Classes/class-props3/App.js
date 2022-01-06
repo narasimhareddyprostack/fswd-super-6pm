@@ -1,12 +1,11 @@
 import Navbar from "./Navbar/Navbar";
-import Message from './StateEx/Message'
+import CompA from './Props/CompA'
 function App() {
   return (
     <div>
       <Navbar />
-
-      <hr />
-      <Message />
+      <CompA/>
+     
     </div>
   );
 }

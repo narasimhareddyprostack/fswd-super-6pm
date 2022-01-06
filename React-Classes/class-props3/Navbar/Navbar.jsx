@@ -5,7 +5,7 @@ class Navbar extends React.Component {
       <div>
         <nav className="navbar navbar-dark bg-dark navbar-expand-lg">
           <a href="#" className="navbar-brand">
-            React State Example
+            React Props Example - KKKK
           </a>
         </nav>
       </div>
