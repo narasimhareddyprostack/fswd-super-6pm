@@ -1,12 +1,12 @@
 import Navbar from "./Navbar/Navbar";
-import Message from './StateEx/Message'
+import Counter from './Counter/Counter'
 function App() {
   return (
     <div>
       <Navbar />
 
       <hr />
-      <Message />
+      <Counter />
     </div>
   );
 }
